@@ -9,7 +9,7 @@ Aqui demonstramos como configurar este _code format_ em seu projeto.
 ### Instalando dep
 
 ```shell
-npm i --save-dev fvi-prettier-config
+npm i --save-dev @fvi/prettier-config
 ```
 
 ### Configurando package.json
@@ -18,7 +18,7 @@ Incluir a linha abaixo na raiz do arquivo _package.json_.
 
 ```json
 {
-    "prettier": "fvi-prettier-config"
+    "prettier": "@fvi/prettier-config"
 }
 ```
 

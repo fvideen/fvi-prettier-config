@@ -1,8 +1,13 @@
 {
-    "name": "fvi-prettier-config",
-    "version": "0.0.0",
-    "description": "FVI Co. - Prettier Configuration",
+    "name": "@fvi/prettier-config",
+    "version": "0.0.1",
+    "license": "MIT",
     "main": "index.js",
+    "description": "FVI - JS Prettier Configuration",
+    "author": {
+        "name": "FVI",
+        "email": "paulosalesfvi@gmail.com"
+    },
     "scripts": {
         "compile": "grunt compile",
         "test": "grunt test",
@@ -21,31 +26,7 @@
         "config",
         "upstatement"
     ],
-    "repository": "https://github.com/salespaulo/fvi-prettier-config.git",
-    "author": {
-        "name": "FVI",
-        "email": "tech@fvi.com",
-        "twitter": "@fvi"
-    },
-    "license": "MIT",
     "dependencies": {
-        "prettier": "^2.0.0"
-    },
-    "devDependencies": {
-        "chai": "^4.2.0",
-        "chai-http": "^4.3.0",
-        "grunt": "^1.1.0",
-        "grunt-apidoc": "^0.11.0",
-        "grunt-contrib-compress": "^1.6.0",
-        "grunt-contrib-clean": "^2.0.0",
-        "grunt-concurrent": "^3.0.0",
-        "grunt-contrib-watch": "^1.1.0",
-        "grunt-env": "^1.0.1",
-        "grunt-mocha-test": "^0.13.3",
-        "grunt-nodemon": "^0.4.2",
-        "grunt-notify": "^0.4.5",
-        "grunt-shell": "^3.0.1",
-        "load-grunt-tasks": "^5.0.1",
-        "mocha": "^7.0.1"
+        "prettier": "^2.4.1"
     }
 }
