@@ -1,11 +1,11 @@
 {
-    "name": "@fvi/prettier-config",
+    "name": "fvi-prettier-config",
     "version": "0.0.1",
     "license": "MIT",
     "main": "index.js",
     "description": "FVI - JS Prettier Configuration",
     "author": {
-        "name": "FVI",
+        "name": "Freunde Von Ideen",
         "email": "paulosalesfvi@gmail.com"
     },
     "scripts": {
